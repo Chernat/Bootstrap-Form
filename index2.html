@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <form class="" action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+        <div class="row">
+          <fieldset class="col-lg-8">
+            <legend>Personal Information:</legend>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input id="name" class="form-control" type="text" name="name">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="surname">Surname</label>
+                  <input id="surname" class="form-control" type="text" name="surname">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="age">How old are you?</label>
+                  <input id="age" class="form-control" type="number" name="How old are you?">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="birthdate">Full date of birth:</label>
+                  <input id="birthdate" class="form-control" type="date" name="birthdate">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="accept" class="custom-control custom-checkbox">
+                  <input id="accept" class="custom-control-input" type="checkbox" name="accept">
+                  <span class="custom-control-description">Check this custom checkbox</span>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="col-lg-4">
+
+          </fieldset>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
