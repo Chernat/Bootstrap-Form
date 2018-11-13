@@ -22,7 +22,7 @@
           <h1>Bootstrap Registration Form</h1>
         </div>
       </div>
-      <form class="" action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+      <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
         <div class="row">
           <fieldset class="col-lg-8">
             <legend class="mb-4">Personal Information:</legend>
@@ -125,19 +125,19 @@
         </div>
         <hr class="mb-4">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-6 offset-sm-3 col-lg-6 offset-lg-2">
             <fieldset>
+              <legend class="">Your comments</legend>
               <div class="row form-group">
-                <label class="col-lg-3 col-form-label">Your comments</label>
-                <textarea name="name" rows="2"  class="form-control col-lg" placeholder="Your comments hear"></textarea>
+                <textarea name="name" rows="2"  class="form-control" placeholder="Your comments hear"></textarea>
               </div>
             </fieldset>
           </div>
         </div>
         <hr class="mb-4">
         <div class="d-flex justify-content-end mb-4">
-            <input class="btn btn-primary btn-lg mr-4" type="submit" value="Submit">
-            <input class="btn btn-secondary btn-lg" type="reset" value="Reset">
+            <input class="btn btn-primary col-lg-2 btn-lg mr-4" type="submit" value="Submit">
+            <input class="btn btn-secondary col-lg-2 btn-lg" type="reset" value="Reset">
         </div>
       </form>
     </div>
